@@ -3,7 +3,7 @@ let btn = document.getElementById("btn-barcode-generator");
 btn.addEventListener("click", () => {
   JsBarcode("#barcode", input.value, {
     format: "code128",
-    displayValue: true,
+    displayValue: false,
     fontSize: 24,
     lineColor: "#000",
   });
